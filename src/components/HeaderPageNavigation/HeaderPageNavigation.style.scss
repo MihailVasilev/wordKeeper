@@ -1,0 +1,33 @@
+@import "src/assets/variables";
+
+.nav-container {
+  background: $blue;
+  width: 100%;
+  height: $base * 15;
+  border-radius: $base;
+
+  ul {
+    margin: 0;
+    padding: 0 $base * 6 0 $base * 6;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+
+    li {
+      list-style-type: none;
+      font-size: $base * 5;
+      font-weight: 500;
+    }
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+
+    i {
+      color: $white;
+      padding-right: $base * 2;
+    }
+  }
+}

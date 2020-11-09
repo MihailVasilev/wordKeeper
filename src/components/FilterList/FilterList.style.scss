@@ -1,0 +1,38 @@
+@import "src/assets/variables";
+
+.filterList-container {
+  margin: $base * 2 0 $base * 2 $base;
+
+  .filterItem {
+    display: block;
+    position: relative;
+    padding-left: $base * 6;
+    margin-bottom: $base * 3;
+    cursor: pointer;
+    font-size: $base * 3;
+  }
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $base * 4;
+    width: $base * 4;
+  }
+
+  .checked {
+    background-color: $blue;
+  }
+
+  .not-checked {
+    background-color: $white;
+  }
+}

@@ -1,0 +1,40 @@
+@import "src/assets/variables";
+
+.searchInput-container {
+  font-size: $base * 5;
+  position: relative;
+
+  input {
+    width: 100%;
+    padding: $base * 2 $base * 10 $base * 2 $base * 3;
+    height: $base * 10;
+    box-sizing: border-box;
+    border: 1px solid $dark-gray;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: $base;
+    font-size: $base * 4;
+  }
+
+  input:focus {
+    border: 1px solid $blue;
+  }
+
+  i {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    color: $dark-gray;
+    cursor: pointer;
+  }
+
+  .spinner {
+    position: absolute;
+    fill: $blue;
+    height: $base * 2;
+    width: $base * 2;
+    top: $base * 2;
+    right: $base * 3;
+  }
+}

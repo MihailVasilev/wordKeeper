@@ -1,0 +1,7 @@
+@import "src/assets/variables";
+
+.title {
+  font-size: $base * 8;
+  font-weight: $base-font-width;
+  margin: $base * 8 0 0 $base * 2;
+}
